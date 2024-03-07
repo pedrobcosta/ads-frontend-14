@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adoção Responsável</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="bg-info text-white text-center py-2">
+    <h1>Adoção Responsável</h1>
+    <!-- Menu de navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre-nos">Sobre nós</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#adote">Adote</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Corpo da página -->
+  <div class="container mt-4">
+    <!-- Sessão 1: Sobre nós -->
+    <section id="sobre-nos" class="mb-4">
+      <h2>Sobre nós</h2>
+      <p>Adoção Responsável é uma ONG dedicada a encontrar lares amorosos para cães abandonados. Nosso objetivo é promover a adoção responsável, proporcionando uma vida melhor para os animais e para as famílias que os acolhem.</p>
+    </section>
+
+    <!-- Sessão 2: Motivos para adotar -->
+    <section class="mb-4">
+      <h2>Motivos para adotar</h2>
+      <p>Adotar um cachorro não apenas traz alegria para sua vida, mas também salva uma vida. Cães adotados são extremamente gratos e trazem uma energia positiva para o seu lar. Além disso, você estará ajudando a reduzir o número de animais abandonados.</p>
+    </section>
+
+    <!-- Sessão 3: Cachorros em busca de adoção -->
+    <section id="adote" class="mb-4">
+      <h2>Cachorros em busca de adoção</h2>
+      <!-- Tabela com informações fictícias sobre cachorros -->
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Raça</th>
+            <th>Tamanho</th>
+            <th>Idade</th>
+            <th>Cor do Pelo</th>
+            <th>Personalidade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Rex</td>
+            <td>Labrador</td>
+            <td>Médio</td>
+            <td>2 anos</td>
+            <td>Amarelo</td>
+            <td>Brincalhão</td>
+          </tr>
+          <tr>
+            <td>Pluminha</td>
+            <td>SRD</td>
+            <td>Médio</td>
+            <td>1 ano</td>
+            <td>Branco</td>
+            <td>Calmo</td>
+          </tr>
+          <tr>
+            <td>Juju</td>
+            <td>Pinscher</td>
+            <td>Pequena</td>
+            <td>7 meses</td>
+            <td>Preta</td>
+            <td>Agitada</td>
+          </tr>
+          <tr>
+            <td>Zeus</td>
+            <td>SRD</td>
+            <td>Grande</td>
+            <td>3 anos</td>
+            <td>Branco e preto</td>
+            <td>Carinhoso</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="text-center py-3 bg-light">
+    <p>&copy; <span id="year"></span> Adoção Responsável</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").innerText = new Date().getFullYear();
+  </script>
+
+  <!-- Scripts do Bootstrap (jQuery e Popper.js) -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
